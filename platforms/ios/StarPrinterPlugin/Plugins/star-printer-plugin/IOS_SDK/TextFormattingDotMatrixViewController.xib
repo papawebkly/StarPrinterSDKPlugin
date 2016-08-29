@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextFormattingDotMatrixViewController">
+            <connections>
+                <outlet property="buttonAlignment" destination="uIF-co-nDn" id="mdI-Uw-fR6"/>
+                <outlet property="buttonBack" destination="6o2-Fw-95c" id="UIH-FQ-odR"/>
+                <outlet property="buttonHelp" destination="gXe-6j-iLX" id="Wqp-TC-Nok"/>
+                <outlet property="buttonPrint" destination="VZ5-mu-03g" id="zEG-hd-r05"/>
+                <outlet property="uilabel_emphasized" destination="sGf-0R-GPj" id="C4U-0X-omV"/>
+                <outlet property="uilabel_heightExpansion" destination="dqd-Fb-1up" id="85c-2I-qbv"/>
+                <outlet property="uilabel_slashedZero" destination="bOk-4g-Z0Z" id="m6B-nh-u12"/>
+                <outlet property="uilabel_twoColor" destination="N7x-wN-V7k" id="5Gr-1Q-YHa"/>
+                <outlet property="uilabel_underline" destination="tXh-LF-NWQ" id="in8-rZ-K0R"/>
+                <outlet property="uilabel_upperline" destination="dcB-kX-CWn" id="Ges-Vs-RTn"/>
+                <outlet property="uilabel_upsideDown" destination="TmU-H4-3IN" id="pFM-dn-HvT"/>
+                <outlet property="uilabel_widthExpansion" destination="rQZ-uc-7zT" id="Jgn-f2-7gg"/>
+                <outlet property="uiscrollview_main" destination="kA5-1c-Ghl" id="34N-eY-BCY"/>
+                <outlet property="uisegment_kanjiMode" destination="43O-9p-H8w" id="1nr-6x-Ysf"/>
+                <outlet property="uiswitch_emphasized" destination="G8c-LP-GmK" id="5VZ-g7-Se5"/>
+                <outlet property="uiswitch_heightExpansion" destination="Ncp-EQ-HSe" id="zIl-7L-fXE"/>
+                <outlet property="uiswitch_slashedZero" destination="gU3-Yj-Icx" id="e7I-wk-Ss6"/>
+                <outlet property="uiswitch_twoColor" destination="Anu-H2-xaV" id="I9n-1R-bwg"/>
+                <outlet property="uiswitch_underline" destination="S4b-Hl-B5e" id="UDw-B5-adL"/>
+                <outlet property="uiswitch_upperline" destination="Zny-q3-d7t" id="7Mc-Uu-RvR"/>
+                <outlet property="uiswitch_upsideDown" destination="ouA-Om-8tD" id="RvV-bk-o0a"/>
+                <outlet property="uiswitch_widthExpansion" destination="boA-QT-Rxr" id="ovW-o9-brn"/>
+                <outlet property="uitextfield_leftMargin" destination="dt5-Bn-ADF" id="mY0-2r-j5s"/>
+                <outlet property="uitextview_texttoprint" destination="2ke-Rt-3q2" id="Oy1-oh-oer"/>
+                <outlet property="uiview_justification" destination="taA-2x-TKi" id="LZy-LD-5Rd"/>
+                <outlet property="uiview_main" destination="i5M-Pr-FkT" id="hht-UJ-Cnh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+        </view>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="kA5-1c-Ghl">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="H24-Jt-AkQ">
+                    <rect key="frame" x="17" y="20" width="287" height="362"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Underline" lineBreakMode="tailTruncation" minimumFontSize="10" id="tXh-LF-NWQ">
+                            <rect key="frame" x="20" y="109" width="138" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="S4b-Hl-B5e">
+                            <rect key="frame" x="204" y="106" width="51" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Two Color" lineBreakMode="tailTruncation" minimumFontSize="10" id="N7x-wN-V7k">
+                            <rect key="frame" x="20" y="145" width="138" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="Anu-H2-xaV">
+                            <rect key="frame" x="204" y="141" width="51" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Emphasized" lineBreakMode="tailTruncation" minimumFontSize="10" id="sGf-0R-GPj">
+                            <rect key="frame" x="20" y="179" width="138" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="G8c-LP-GmK">
+                            <rect key="frame" x="204" y="175" width="51" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Upperline" lineBreakMode="tailTruncation" minimumFontSize="10" id="dcB-kX-CWn">
+                            <rect key="frame" x="20" y="214" width="138" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="Zny-q3-d7t">
+                            <rect key="frame" x="204" y="210" width="51" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Upside-Down" lineBreakMode="tailTruncation" minimumFontSize="10" id="TmU-H4-3IN">
+                            <rect key="frame" x="20" y="249" width="138" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Height Expansion" lineBreakMode="tailTruncation" minimumFontSize="10" id="dqd-Fb-1up">
+                            <rect key="frame" x="20" y="284" width="138" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Width Expansion" lineBreakMode="tailTruncation" minimumFontSize="10" id="rQZ-uc-7zT">
+                            <rect key="frame" x="20" y="319" width="138" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="ouA-Om-8tD">
+                            <rect key="frame" x="204" y="245" width="51" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="Ncp-EQ-HSe">
+                            <rect key="frame" x="204" y="280" width="51" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="boA-QT-Rxr">
+                            <rect key="frame" x="204" y="315" width="51" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="gU3-Yj-Icx">
+                            <rect key="frame" x="204" y="71" width="51" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slashed Zero" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bOk-4g-Z0Z">
+                            <rect key="frame" x="20" y="74" width="138" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="43O-9p-H8w">
+                            <rect key="frame" x="20" y="20" width="247" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="Shift-JIS"/>
+                                <segment title="JIS"/>
+                            </segments>
+                        </segmentedControl>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="taA-2x-TKi">
+                    <rect key="frame" x="0.0" y="390" width="320" height="327"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" id="dt5-Bn-ADF">
+                            <rect key="frame" x="0.0" y="93" width="320" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                        </textField>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Alignment" lineBreakMode="tailTruncation" minimumFontSize="10" id="5KJ-op-lmh">
+                            <rect key="frame" x="0.0" y="0.0" width="76" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This feature sends raw text with decoration as defined above to the printer." id="2ke-Rt-3q2">
+                            <rect key="frame" x="0.0" y="159" width="320" height="160"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Text To Print" lineBreakMode="tailTruncation" minimumFontSize="10" id="nBC-jL-gk4">
+                            <rect key="frame" x="0.0" y="131" width="94" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Left Margin (0 - 255)" lineBreakMode="tailTruncation" minimumFontSize="10" id="whe-Ni-dmj">
+                            <rect key="frame" x="0.0" y="65" width="155" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uIF-co-nDn">
+                            <rect key="frame" x="0.0" y="28" width="320" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="Button">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="selectAlignment:" destination="-1" eventType="touchUpInside" id="f7l-mk-lky"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6o2-Fw-95c">
+                    <rect key="frame" x="0.0" y="732" width="36" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="Back">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backTextFormating" destination="-1" eventType="touchUpInside" id="8jt-vT-giM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VZ5-mu-03g">
+                    <rect key="frame" x="285" y="732" width="35" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="Print">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="PrintText" destination="-1" eventType="touchUpInside" id="CSd-dA-4i1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gXe-6j-iLX">
+                    <rect key="frame" x="220" y="732" width="33" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="Help">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showHelp" destination="-1" eventType="touchUpInside" id="uyX-r0-7xE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </scrollView>
+    </objects>
+</document>
